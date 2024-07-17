@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúncio de Serviços</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aadd 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: #333 url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .services div {
+            flex: 1;
+            padding: 20px;
+            background: #fff;
+            margin: 10px;
+            border: #77aadd 1px solid;
+            border-radius: 10px;
+        }
+        .contact {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .contact a {
+            color: #77aadd;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Serviços</span> de Criação</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Transforme suas ideias em realidade</h1>
+            <p>Oferecemos serviços de criação de sites, projetos, trabalhos escolares, peças teatrais, pesquisas e muito mais!</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div>
+                <h2>Criação de Sites</h2>
+                <p>Desenvolvimento de sites modernos, responsivos e funcionais.</p>
+            </div>
+            <div>
+                <h2>Desenvolvimento de Projetos</h2>
+                <p>Realização de projetos personalizados para empresas e indivíduos.</p>
+            </div>
+            <div>
+                <h2>Criação de Peças Teatrais</h2>
+                <p>Elaboração de roteiros, planejamento e direção de peças teatrais.</p>
+            </div>
+            <div>
+                <h2>Pesquisas e Análises</h2>
+                <p>Condução de pesquisas detalhadas e produção de relatórios abrangentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
+            <p>Telefone: <a href="tel:+351123456789">+351 123 456 789</a></p>
+            <p>Website/Portfólio: <a href="http://seuwebsite.com" target="_blank">seuwebsite.com</a></p>
+        </div>
+    </section>
+
+    <script>
+        // JavaScript para adicionar qualquer funcionalidade extra se necessário
+    </script>
+</body>
+</html>
